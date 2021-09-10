@@ -190,13 +190,13 @@ html {
 body {
   background-color: #935d8c;
   background-image: url("images/overlay.png"),
-    -moz-linear-gradient(45deg, #51009c 15%, #009c08 85%);
+    -moz-linear-gradient(45deg, #51009c 15%, #009c0886 85%);
   background-image: url("images/overlay.png"),
-    -webkit-linear-gradient(45deg, #51009c 15%, #009c08 85%);
+    -webkit-linear-gradient(45deg, #51009c 15%, #009c0886 85%);
   background-image: url("images/overlay.png"),
-    -ms-linear-gradient(45deg, #51009c 15%, #009c08 85%);
+    -ms-linear-gradient(45deg, #51009c 15%, #009c0886 85%);
   background-image: url("images/overlay.png"),
-    linear-gradient(45deg, #51009c 15%, #009c08 85%);
+    linear-gradient(45deg, #51009c 15%, #009c0886 85%);
 }
 
 body.is-preload *,
@@ -3218,6 +3218,7 @@ table.alt tbody tr td {
   display: block;
   margin: 0 auto;
   max-width: 75%;
+  border-radius: 90px;
 }
 
 @media screen and (max-width: 1280px) {
