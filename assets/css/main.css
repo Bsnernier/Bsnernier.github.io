@@ -297,6 +297,7 @@ p.content {
 
 ul.bulletPoints {
   list-style-position: inside;
+  list-style-type: square;
 }
 
 h1,
