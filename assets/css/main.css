@@ -292,7 +292,7 @@ p.content {
 
 .bulletPoints {
   text-align: justify;
-  list-style-position: inside;
+  margin-left: 20px;
 }
 
 ul.bulletPoints {
