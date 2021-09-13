@@ -275,10 +275,6 @@ em,
 i {
   font-style: italic;
 }
-/*
-p {
-  margin: 0 0 2em 0;
-} */
 
 p.content {
   /* -moz-columns: 20em 2;
@@ -290,6 +286,7 @@ p.content {
   -ms-column-gap: 2em;
   column-gap: 2em; */
   margin-top: 20px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -298,7 +295,7 @@ p.content {
 }
 
 ul.bulletPoints {
-  margin-left: 50px;
+  list-style-position: inside;
 }
 
 h1,
