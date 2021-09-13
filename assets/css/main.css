@@ -293,6 +293,10 @@ p.content {
   text-align: center;
 }
 
+.bulletPoints {
+  text-align: justify;
+}
+
 h1,
 h2,
 h3,
