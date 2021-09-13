@@ -275,10 +275,10 @@ em,
 i {
   font-style: italic;
 }
-
+/*
 p {
   margin: 0 0 2em 0;
-}
+} */
 
 p.content {
   /* -moz-columns: 20em 2;
@@ -295,6 +295,10 @@ p.content {
 
 .bulletPoints {
   text-align: justify;
+}
+
+ul.bulletPoints {
+  margin-left: 50px;
 }
 
 h1,
